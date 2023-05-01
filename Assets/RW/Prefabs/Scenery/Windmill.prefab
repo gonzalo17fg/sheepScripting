@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &1991903386
+--- !u!114 &8840736220382553519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 477aec34f80eb29498dcd4f29b21d793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: {x: 0, y: 0, z: 0}
+  rotationSpeed: {x: 0, y: 50, z: 0}
 --- !u!1 &1524613847715755805
 GameObject:
   m_ObjectHideFlags: 0

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class rotate : MonoBehaviour
+public class Move : MonoBehaviour
 {
-    public Vector3 rotationSpeed;
-
+    public Vector3 movementSpeed;
+    public Space space;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,6 @@ public class rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(rotationSpeed * Time.deltaTime);
+        transform.Translate(movementSpeed * Time.deltaTime, space);
     }
 }
