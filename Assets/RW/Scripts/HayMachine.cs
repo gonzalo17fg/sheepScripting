@@ -23,6 +23,7 @@ public class HayMachine : MonoBehaviour
     {
         Debug.Log(transform.position.x);
         UpdateMovement();
+        UpdateShooting();
     }
 
     private void UpdateMovement()
